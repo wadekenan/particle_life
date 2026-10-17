@@ -10,9 +10,9 @@ Different particle types have set attraction factors defined by the matrix.
 - The colomn defines that particle acting on said particle. (Applying a force) 
 
 For example: Blue = b, Red = r
--         b    r
-      b {  .5,  1}
-      r {-.5,  .5}
+-         b   r
+      b [ .5,  1]
+      r [-.5, .5]
 
 Blue and red both are decently attracted to themselves, 
 but blue is fully attracted by red, while red is decently repelled by blue.
